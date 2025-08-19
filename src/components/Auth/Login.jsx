@@ -39,7 +39,6 @@ const Login = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
-      {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
@@ -47,7 +46,6 @@ const Login = () => {
       </div>
 
       <div className="relative w-full max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 items-center">
-        {/* Left Side - Branding & Info */}
         <div className="hidden lg:flex flex-col space-y-8 text-white">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
@@ -85,10 +83,8 @@ const Login = () => {
           </div>
         </div>
 
-        {/* Right Side - Login Form */}
         <div className="w-full max-w-md mx-auto lg:mx-0">
           <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl border border-white/20 p-8">
-            {/* Mobile Header */}
             <div className="lg:hidden text-center mb-8">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl">
@@ -118,7 +114,6 @@ const Login = () => {
                 </div>
               )}
 
-              {/* Email Field */}
               <div className="space-y-2">
                 <label
                   htmlFor="email"
@@ -143,7 +138,6 @@ const Login = () => {
                 </div>
               </div>
 
-              {/* Password Field */}
               <div className="space-y-2">
                 <label
                   htmlFor="password"
@@ -179,7 +173,6 @@ const Login = () => {
                 </div>
               </div>
 
-              {/* Sign In Button */}
               <button
                 type="submit"
                 disabled={loading}
@@ -198,7 +191,6 @@ const Login = () => {
                 )}
               </button>
 
-              {/* Register Link */}
               <div className="text-center pt-4 border-t border-gray-200">
                 <p className="text-gray-600">
                   Don't have an account?{" "}
@@ -212,7 +204,6 @@ const Login = () => {
               </div>
             </form>
 
-            {/* Additional Features for Mobile */}
             <div className="lg:hidden mt-8 pt-6 border-t border-gray-200">
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="p-3 bg-blue-50 rounded-lg">
